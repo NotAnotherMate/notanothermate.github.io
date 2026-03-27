@@ -4,6 +4,15 @@
    Brand Primary: #C41E32 (Crimson Red)
    ============================================ */
 
+/* --- Geist Sans Font (matching notanothermate.com) --- */
+@font-face {
+  font-family: 'Geist';
+  src: url('https://cdn.jsdelivr.net/npm/geist@1.3.1/dist/fonts/geist-sans/Geist-Variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* --- CSS Custom Properties --- */
 :root {
   --color-primary: #C41E32;
@@ -25,7 +34,7 @@
   --color-purple: #a855f7;
   --color-amber: #f59e0b;
 
-  --font-sans: 'Geist Sans', 'Geist', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Geist', system-ui, -apple-system, sans-serif;
   --font-serif: 'Playfair Display', Georgia, serif;
   --font-mono: 'Courier Prime', monospace;
   --font-caveat: 'Caveat', cursive;
